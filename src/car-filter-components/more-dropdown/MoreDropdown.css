@@ -1,0 +1,40 @@
+.more-dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-content{
+    position: absolute;
+    top:100%;
+}
+.options-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.dropdown-option{
+    background-color: white;
+    width: auto;
+}
+.inner-wrapper{
+    display:flex;
+}
+.option-image{
+    margin:auto;
+    margin-left:5px;
+    margin-right:5px;
+}
+.option-name{
+    margin:auto;
+    margin-left:5px;
+    text-align: left;
+}
+.option-price-tag{
+    margin:auto;
+    margin-left:5px;
+    margin-right:5px;
+    text-align: right;
+}
+.price-tag{
+    opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+.outer-column-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.inner-column-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 75px;
+    cursor: pointer;
+    border: "2px";
+}
+.price-tag-popup{
+    position: absolute;
+    bottom: 100%;
+    left: 15%;
+    border: 1px solid;
+    background-color: #2f2f2f;
+    color: white;
+    width: 70px;
+    height: 33px;
+    font-size: 15pt;
+    border-radius: 10px;
+}

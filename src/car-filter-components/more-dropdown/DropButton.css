@@ -1,0 +1,9 @@
+.text-column-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.text-wrapper{
+    display: flex;
+    margin: auto;
+}

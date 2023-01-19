@@ -1,0 +1,13 @@
+
+.main-car-type{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin:auto;
+}
+.wrapper{
+    display: flex;  
+}

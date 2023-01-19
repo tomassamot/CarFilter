@@ -1,0 +1,17 @@
+.column-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: fit-content;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+span.reset-btn{
+    position: absolute;
+    right: 0;
+    color: rgb(38, 133, 133);
+    cursor: pointer;
+}
